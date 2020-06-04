@@ -78,7 +78,7 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#b8b8b8',
+    backgroundColor: 'white',
   },
   inputBox: {
     marginTop: 50,
@@ -90,11 +90,12 @@ const styles = StyleSheet.create({
     outline: 'none',
   },
   goButton: {
-    width: '50%',
+    width: '51%',
     height: 55,
     alignSelf: 'center',
     padding: 10,
-    margin: 10,
+    marginTop: 10,
+    marginBottom: 10,
   },
   buttonText: {
     textAlign: 'center',
